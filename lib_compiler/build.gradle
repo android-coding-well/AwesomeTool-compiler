@@ -8,7 +8,7 @@ dependencies {
     compile 'com.google.auto.service:auto-service:1.0-rc3'
     //用于生成源代码
     compile 'com.squareup:javapoet:1.8.0'
-    compile project(':lib_annotaiton')
+    //compile project(':lib_annotaiton')
 
 }
 
