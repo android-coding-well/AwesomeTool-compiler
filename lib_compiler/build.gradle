@@ -5,9 +5,9 @@ group='com.github.huweijian5'
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     //auto-service库可以帮我们去生成META-INF等信息
-    compile 'com.google.auto.service:auto-service:1.0-rc3'
+    compile 'com.google.auto.service:auto-service:1.0-rc4'
     //用于生成源代码
-    compile 'com.squareup:javapoet:1.8.0'
+    compile 'com.squareup:javapoet:1.9.0'
     //compile project(':lib_annotaiton')
 
 }
